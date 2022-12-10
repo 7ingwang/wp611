@@ -1,0 +1,136 @@
+#accordion-section-colors
+{
+	display: none !important;
+}
+#breadcrumbs-display-blog-page
+{
+	display: none !important;
+}
+.customize-control-title.Subtitle {
+		padding-left: 0px;
+}
+
+#wpfooter,
+#wp-admin-bar-wp-logo,
+#wp-admin-bar-updates,
+#wp-admin-bar-comments,
+#menu-comments,
+#menu-plugins,
+#menu-dashboard .wp-submenu a[href*="update-core"],
+#menu-posts .wp-submenu a[href*="post_tag"],
+
+#menu-appearance .wp-submenu a[href*="customize"],
+#menu-appearance .wp-submenu a[href*="widgets"],
+#menu-appearance .wp-submenu a[href*="install-plugins"],
+
+#menu-tools,
+#menu-tools .wp-submenu a[href*="tools"],
+#menu-tools .wp-submenu a[href*="site-health"],
+#menu-tools .wp-submenu a[href*="erase-personal-data"],
+
+#menu-settings .wp-submenu a[href*="options-discussion"],
+#menu-settings .wp-submenu a[href*="options-privacy"],
+
+.wp-customizer .dashicons-editor-help,
+.wp-customizer #accordion-section-wporg_themes,
+
+#setting-error-tgmpa,
+
+#show-settings-link, #contextual-help-link,
+
+#wp-version-message,
+
+#your-profile .user-rich-editing-wrap,
+#your-profile .user-comment-shortcuts-wrap,
+#your-profile .user-syntax-highlighting-wrap,
+#your-profile .show-admin-bar,
+#your-profile .user-language-wrap,
+
+.user-new-php .user-language-wrap,
+
+.options-general-php .form-table tr:nth-child(3),
+.options-general-php .form-table tr:nth-child(6),
+.options-general-php .form-table tr:nth-child(8),
+.options-general-php .form-table tr:nth-child(9),
+.options-general-php .form-table tr:nth-child(4) .description,
+.options-general-php .form-table tr:nth-child(11) .date-time-doc,
+
+.options-writing-php .form-table+h2,
+.options-writing-php .form-table+h2+p,
+.options-writing-php .form-table+h2+p+textarea,
+
+.options-reading-php .form-table tr:nth-child(3),
+.options-reading-php .form-table tr:nth-child(4),
+.options-reading-php .form-table tr:nth-child(5),
+
+.index-php .welcome-panel-content,
+.index-php #dashboard_site_health,
+.index-php .search-engines-info,
+.index-php .comment-count,
+.index-php #latest-comments,
+.index-php #dashboard_primary,
+
+.themes-php .wp-heading-inline .title-count,
+.themes-php .wp-heading-inline .title-count,
+.themes-php a[href*="theme-install"],
+.themes-php .wp-filter-search,
+.themes-php .theme-wrap .theme-actions,
+
+.nav-menus-php .wp-heading-inline+a,
+
+.theme-editor-php #message,
+.theme-editor-php .fileedit-sub .alignright,
+
+.user-profile-picture,
+.application-passwords p:last-child,
+.column-username img,
+
+.user-edit-php .application-passwords,
+#wpadminbar #wp-admin-bar-my-account.with-avatar>.ab-empty-item img, #wpadminbar #wp-admin-bar-my-account.with-avatar>a img,
+#wp-admin-bar-user-info .avatar,
+
+.interface-more-menu-dropdown,
+
+.components-site-card .components-site-icon,
+
+.post-php .edit-post-post-url+.components-panel__row,
+.post-php .components-panel .components-panel__row.edit-post-post-author,
+.post-php .components-panel .components-panel__body:nth-last-child(5),
+.post-php .components-panel .components-panel__body:nth-last-child(2),
+.post-php #inspector-text-control-2__help,
+
+.editor-post-publish-panel__prepublish .components-panel__body:nth-last-child(2),
+
+.editor-post-excerpt .components-external-link,
+
+.post-new-php .edit-post-post-url+.components-panel__row,
+.post-new-php .edit-post-sidebar .components-panel__body:nth-last-child(5),
+.post-new-php .edit-post-sidebar .components-panel__body:nth-last-child(2),
+.block-editor-inserter__block-list .block-editor-inserter__panel-header,
+.block-editor-inserter__block-list .block-editor-inserter__panel-content,
+.components-tab-panel__tabs #tab-panel-0-patterns,
+
+.options-permalink-php #wpbody form p,
+.options-permalink-php #wpbody h2,
+.options-permalink-php #wpbody .form-table:not(.permalink-structure),
+
+.edit-tags-php .edit-term-notes p:last-child {
+	display: none !important;
+}
+
+#wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions>li {
+	margin-left: 16px;
+}
+
+.block-editor-inserter__block-list .block-editor-inserter__panel-header:nth-child(1),
+
+.block-editor-inserter__block-list .block-editor-inserter__panel-header:nth-child(1)+
+.block-editor-inserter__panel-content,
+
+.block-editor-inserter__block-list .block-editor-inserter__panel-header:nth-child(1)+
+.block-editor-inserter__panel-content+.block-editor-inserter__panel-header,
+
+.block-editor-inserter__block-list .block-editor-inserter__panel-header:nth-child(1)+
+.block-editor-inserter__panel-content+.block-editor-inserter__panel-header+.block-editor-inserter__panel-content {
+	display: block !important;
+}

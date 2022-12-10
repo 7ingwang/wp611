@@ -1,0 +1,96 @@
+#accordion-section-colors
+{
+	display: none !important;
+}
+#breadcrumbs-display-blog-page
+{
+	display: none !important;
+}
+.customize-control-title.Subtitle {
+		padding-left: 0px;
+}
+
+#wpfooter,
+#wp-admin-bar-wp-logo,
+#wp-admin-bar-updates,
+#wp-admin-bar-comments,
+#menu-comments,
+#menu-plugins,
+#menu-dashboard .wp-submenu a[href*="update-core"],
+#menu-posts .wp-submenu a[href*="post_tag"],
+
+#menu-appearance .wp-submenu a[href*="customize"],
+#menu-appearance .wp-submenu a[href*="widgets"],
+#menu-appearance .wp-submenu a[href*="install-plugins"],
+
+#menu-tools,
+#menu-tools .wp-submenu a[href*="tools"],
+#menu-tools .wp-submenu a[href*="site-health"],
+#menu-tools .wp-submenu a[href*="erase-personal-data"],
+
+#menu-settings .wp-submenu a[href*="options-discussion"],
+#menu-settings .wp-submenu a[href*="options-privacy"],
+
+.wp-customizer .dashicons-editor-help,
+.wp-customizer #accordion-section-wporg_themes,
+
+#setting-error-tgmpa,
+
+#show-settings-link, #contextual-help-link,
+
+#wp-version-message,
+
+#your-profile .user-rich-editing-wrap,
+#your-profile .user-comment-shortcuts-wrap,
+#your-profile .user-syntax-highlighting-wrap,
+#your-profile .show-admin-bar,
+#your-profile .user-language-wrap,
+
+.options-general-php .form-table tr:nth-child(3),
+.options-general-php .form-table tr:nth-child(6),
+.options-general-php .form-table tr:nth-child(8),
+.options-general-php .form-table tr:nth-child(9),
+.options-general-php .form-table tr:nth-child(4) .description,
+.options-general-php .form-table tr:nth-child(11) .date-time-doc,
+
+.options-writing-php .form-table+h2,
+.options-writing-php .form-table+h2+p,
+.options-writing-php .form-table+h2+p+textarea,
+
+.options-reading-php .form-table tr:nth-child(3),
+.options-reading-php .form-table tr:nth-child(4),
+.options-reading-php .form-table tr:nth-child(5),
+
+.index-php .welcome-panel-content,
+.index-php #dashboard_site_health,
+.index-php .search-engines-info,
+.index-php .comment-count,
+.index-php #latest-comments,
+.index-php #dashboard_primary,
+
+.themes-php .wp-heading-inline .title-count,
+.themes-php .wp-heading-inline .title-count,
+.themes-php a[href*="theme-install"],
+.themes-php .wp-filter-search,
+.themes-php .theme-wrap .theme-actions,
+
+.nav-menus-php .wp-heading-inline+a,
+
+.theme-editor-php #message,
+.theme-editor-php .fileedit-sub .alignright,
+
+.profile-php .user-profile-picture,
+.profile-php .application-passwords p:last-child,
+
+.post-php .interface-more-menu-dropdown,
+.post-php .components-panel__row:nth-child(5),
+.post-php .components-panel__row:nth-child(6),
+.post-php .edit-post-sidebar .components-panel__body:nth-child(3),
+.post-php .edit-post-sidebar .components-panel__body:nth-child(6),
+.post-php #inspector-text-control-2__help,
+
+.post-new-php .edit-post-sidebar .components-panel__body:nth-child(3),
+
+.edit-tags-php .edit-term-notes p:last-child {
+	display: none !important;
+}
