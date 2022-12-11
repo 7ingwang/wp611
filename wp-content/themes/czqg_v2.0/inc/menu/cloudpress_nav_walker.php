@@ -1,5 +1,5 @@
-<?php 
-class CLOUDPRESS_nav_walker extends Walker_Nav_Menu {	
+<?php
+class CLOUDPRESS_nav_walker extends Walker_Nav_Menu {
 	function start_lvl( &$output, $depth = 0, $args = array() ) {
 		$indent = str_repeat("\t", $depth);
 		$output .= "\n$indent<ul class=\"dropdown-menu\">\n";
@@ -10,7 +10,7 @@ class CLOUDPRESS_nav_walker extends Walker_Nav_Menu {
 		$class_names = $value = '';
 
 		$classes = empty( $item->classes ) ? array() : (array) $item->classes;
-		
+
 		if(!$args->has_children && $depth === 0) {
 			$classes[] = 'menu-item-' . $item->ID . ' nav-item';
 			$CLOUDPRESS_drop_item='nav-link';
@@ -25,9 +25,9 @@ class CLOUDPRESS_nav_walker extends Walker_Nav_Menu {
 		} else if($args->has_children && $depth === 0) {
 			$classes[] = 'dropdown nav-item';
 			$CLOUDPRESS_drop_item='nav-link';
-		
+
 		}
-		
+
 		$class_names = join( ' ', apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item, $args ) );
 		$class_names = $class_names ? ' class="' . esc_attr( $class_names ) . '"' : '';
 
@@ -40,11 +40,11 @@ class CLOUDPRESS_nav_walker extends Walker_Nav_Menu {
 		$attributes .= ! empty( $item->target )     ? ' target="' . esc_attr( $item->target     ) .'"' : '';
 		$attributes .= ! empty( $item->xfn )        ? ' rel="'    . esc_attr( $item->xfn        ) .'"' : '';
 		$attributes .= ! empty( $item->url )        ? ' href="'   . esc_attr( $item->url        ) .'"' : '';
-					
+
 		$item_output = $args->before;
 		$item_output .= '<a class="'.$CLOUDPRESS_drop_item.'" '. $attributes .'>';
 		$item_output .= $args->link_before . apply_filters( 'the_title', $item->title, $item->ID ) . $args->link_after;
-		$item_output .= ($args->has_children) ? '<span></span></a>' : '</a>';
+		$item_output .= ($args->has_children) ? '<i class="icon-up"></i></a>' : '</a>';
 		$item_output .= $args->after;
 
 		$output .= apply_filters( 'walker_nav_menu_start_el', $item_output, $item, $depth, $args );
@@ -59,8 +59,8 @@ class CLOUDPRESS_nav_walker extends Walker_Nav_Menu {
 		//display this element
 		if ( is_array( $args[0] ) )
 			$args[0]['has_children'] = ! empty( $children_elements[$element->$id_field] );
-		else if ( is_object( $args[0] ) ) 
-			$args[0]->has_children = ! empty( $children_elements[$element->$id_field] ); 
+		else if ( is_object( $args[0] ) )
+			$args[0]->has_children = ! empty( $children_elements[$element->$id_field] );
 		$cb_args = array_merge( array(&$output, $element, $depth), $args);
 		call_user_func_array(array($this, 'start_el'), $cb_args);
 
