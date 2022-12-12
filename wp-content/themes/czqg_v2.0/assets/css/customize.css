@@ -99,7 +99,9 @@
 .post-php .components-panel .components-panel__body:nth-last-child(2),
 .post-php #inspector-text-control-2__help,
 
-.editor-post-publish-panel__prepublish .components-panel__body:nth-last-child(2),
+
+.edit-php .inline-edit-col-right .inline-edit-group:nth-last-child(2),
+.edit-php .inline-edit-col-right .inline-edit-group:nth-last-child(1) .alignleft:not(.inline-edit-status),
 
 .editor-post-excerpt .components-external-link,
 

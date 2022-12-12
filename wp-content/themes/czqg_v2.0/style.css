@@ -1009,6 +1009,10 @@ img {
   .site-footer .contact span+span {
     margin-left: 0;
   }
+
+  .btn-login {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
