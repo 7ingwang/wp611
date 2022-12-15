@@ -104,6 +104,7 @@
 .edit-php .inline-edit-col-right .inline-edit-group:nth-last-child(1) .alignleft:not(.inline-edit-status),
 
 .editor-post-excerpt .components-external-link,
+.components-base-control__help .components-external-link,
 
 .post-new-php .edit-post-post-url+.components-panel__row,
 .post-new-php .edit-post-sidebar .components-panel__body:nth-last-child(5),
@@ -112,7 +113,7 @@
 .block-editor-inserter__block-list .block-editor-inserter__panel-content,
 .components-tab-panel__tabs #tab-panel-0-patterns,
 
-.options-permalink-php #wpbody form p,
+.options-permalink-php #wpbody form p:not(.submit),
 .options-permalink-php #wpbody h2,
 .options-permalink-php #wpbody .form-table:not(.permalink-structure),
 

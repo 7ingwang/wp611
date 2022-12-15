@@ -241,6 +241,9 @@ img {
 .site-footer  a {
   color: #fff;
 }
+.site-footer p a:hover {
+  text-decoration: underline;
+}
 
 .site-footer .custom-logo-link-url {
   background-image: url(assets/images/site-logo-white@2x.png);
