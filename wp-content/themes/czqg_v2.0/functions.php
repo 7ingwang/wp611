@@ -5,7 +5,7 @@
 */
 
 
-//默认禁用编辑器的全屏模式
+// 默认禁用编辑器的全屏模式
 function jba_disable_editor_fullscreen_by_default() {
     if (is_admin()) {
         $script = "jQuery( window ).load(function() { const isFullscreenMode = wp.data.select( 'core/edit-post' ).isFeatureActive( 'fullscreenMode' ); if ( isFullscreenMode ) { wp.data.dispatch( 'core/edit-post' ).toggleFeature( 'fullscreenMode' ); } });";

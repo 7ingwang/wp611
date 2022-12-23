@@ -2,12 +2,15 @@
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="4" aria-label="Slide 5"></button>
   </div>
   <div class="carousel-inner">
 
     <?php
-      // 显示分类别名为xwzx的2篇文章（包括子分类文章）
-      query_posts('category_name=gsyw&showposts=2'); ?>
+      // 显示所有分类下设置了特色图片的5篇文章（包括子分类文章）
+      query_posts('showposts=5'); ?>
     <?php $query_index = 0; while (have_posts()) : $query_index++; the_post(); ?>
       <?php
         // 判断是否是第一条

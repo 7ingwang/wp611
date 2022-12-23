@@ -369,17 +369,6 @@ img {
   height: 2.5rem;
   line-height: 2.5rem;
 }
-.block .title-bar.large {
-}
-.block .title-bar.large .block-title {
-  padding: 0 2rem 0 1.5rem;
-  height: 4rem;
-  line-height: 4rem;
-}
-.block .title-bar.large .more {
-  height: 48px;
-  line-height: 48px;
-}
 .block .summary {
   margin-bottom: 0;
   font-weight: normal;
@@ -1035,4 +1024,17 @@ img {
     padding: 0 2rem 2rem;
   }
 
+  .block .title-bar.large .block-title {
+    padding: 0 2rem 0 1.5rem;
+    height: 3rem;
+    line-height: 3rem;
+  }
+  .block .title-bar.large .more {
+    height: 48px;
+    line-height: 48px;
+  }
+
+  .block-xwzx .list-group {
+    padding-bottom: 0;
+  }
 }
