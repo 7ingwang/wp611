@@ -5,6 +5,7 @@
 */
 
 
+
 // 默认禁用编辑器的全屏模式
 function jba_disable_editor_fullscreen_by_default() {
     if (is_admin()) {

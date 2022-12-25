@@ -93,7 +93,7 @@
 
 .components-site-card .components-site-icon,
 
-.post-php .edit-post-post-url+.components-panel__row,
+/* .post-php .edit-post-post-url+.components-panel__row, */
 .post-php .components-panel .components-panel__row.edit-post-post-author,
 .post-php .components-panel .components-panel__body:nth-last-child(5),
 .post-php .components-panel .components-panel__body:nth-last-child(2),
@@ -101,7 +101,7 @@
 
 
 .edit-php .inline-edit-col-right .inline-edit-group:nth-last-child(2),
-.edit-php .inline-edit-col-right .inline-edit-group:nth-last-child(1) .alignleft:not(.inline-edit-status),
+/* .edit-php .inline-edit-col-right .inline-edit-group:nth-last-child(1) .alignleft:not(.inline-edit-status), */
 
 .editor-post-excerpt .components-external-link,
 .components-base-control__help .components-external-link,

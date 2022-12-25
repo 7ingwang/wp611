@@ -7,11 +7,13 @@
     <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="4" aria-label="Slide 5"></button>
   </div>
   <div class="carousel-inner">
-
     <?php
-      // 显示最新5篇文章（包括所有分类下的文章）
-      query_posts('showposts=5'); ?>
-    <?php $query_index = 0; while (have_posts()) : $query_index++; the_post(); ?>
+      // 调用5条置顶文章，如果无置顶文章则显示普通文章，无缩略图显示缺省图
+      $sticky = get_option('sticky_posts');
+      rsort( $sticky );
+      $sticky = array_slice( $sticky, 0, 5);
+      query_posts( array( 'post__in' => $sticky, 'caller_get_posts' => 1 ) );
+      $query_index = 0; while (have_posts()) : $query_index++; the_post(); ?>
       <?php
         // 判断是否是第一条
         if($query_index==1){ ?>
@@ -29,7 +31,6 @@
                 . '/assets/images/default.jpg">';
             }
             ?>
-
             <h6 class="title"><?php $title = get_the_title();$trimmed_title = wp_trim_words( $title, 28, '...' ); echo $trimmed_title; ?></h6>
           </a>
         </div>
