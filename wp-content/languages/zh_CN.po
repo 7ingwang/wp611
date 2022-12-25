@@ -9365,7 +9365,7 @@ msgstr "主页章节"
 #: wp-includes/theme.php:2386
 msgctxt "Theme starter content"
 msgid "Blog"
-msgstr "博客"
+msgstr "博客X"
 
 #: wp-includes/theme.php:2378
 msgctxt "Theme starter content"
