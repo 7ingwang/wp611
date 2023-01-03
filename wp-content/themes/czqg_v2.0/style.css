@@ -725,7 +725,7 @@ img {
 }
 
 /* 图片列表页 */
-.category-xmzs .blog {
+/* .category-xmzs .blog {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -760,7 +760,7 @@ img {
   background-color: var(--bs-secondary-rgba-08);
   color: #fff;
   font-weight: normal;
-}
+} */
 
 
 /* 分页 */
