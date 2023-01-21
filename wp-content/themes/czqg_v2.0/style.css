@@ -933,6 +933,10 @@ img {
     height: 60vw;
   }
 
+  .carousel-item a img {
+    height: auto;
+  }
+
   .links .navbar-nav {
     flex-wrap: wrap;
     justify-content: center;
