@@ -1,5 +1,5 @@
 <div class="block block-bg">
-   <h6 class="title-bar"><span class="block-title">招标公告</span><a class="more" href="category/zbgg/"><i class="icon-more"></i></a></h6>
+   <h6 class="title-bar"><span class="block-title">招标公告</span><a class="more" href="?cat=6"><i class="icon-more"></i></a></h6>
 
    <ul class="list-group">
    <?php query_posts('category_name=zbgg&showposts=6'); ?>

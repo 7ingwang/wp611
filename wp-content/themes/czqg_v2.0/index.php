@@ -15,7 +15,7 @@
    <div class="container my-5">
      <div class="row justify-content-between">
          <div class="col-md-6">
-            <?php get_template_part('inc/home/block-tzgg');?>
+            <?php get_template_part('inc/home/block-xmjz');?>
          </div>
          <div class="col-md-6">
             <?php get_template_part('inc/home/block-zbgg');?>

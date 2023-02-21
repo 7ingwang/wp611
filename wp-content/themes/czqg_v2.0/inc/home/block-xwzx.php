@@ -1,5 +1,5 @@
 <div class="block block-xwzx">
-   <h5 class="title-bar large"><span class="block-title">新闻中心</span><a class="more" href="category/xwzx/"><i class="icon-more"></i></a></h5>
+   <h5 class="title-bar large"><span class="block-title">新闻中心</span><a class="more" href="?cat=7"><i class="icon-more"></i></a></h5>
 
    <ul class="list-group">
    <?php
