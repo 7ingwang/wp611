@@ -4,6 +4,8 @@
 * @package CZQGGS theme
 */
 
+//关闭自动更新
+add_filter('automatic_updater_disabled', '__return_true');
 
 
 // 默认禁用编辑器的全屏模式
