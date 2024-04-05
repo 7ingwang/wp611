@@ -18,6 +18,9 @@
  * @package WordPress
  */
 
+/**禁止自动更新*/
+define( 'AUTOMATIC_UPDATER_DISABLED', true );
+
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'czqg' );
